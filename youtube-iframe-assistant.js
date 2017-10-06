@@ -6,10 +6,6 @@
 
     };
 
-    $.fn.objectVisualLock = function(offset) {
-
-        
-
-    };
+    
 
 }( jQuery ));
