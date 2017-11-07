@@ -11,7 +11,8 @@
     "url": "git+https://github.com/trevorllarson/object-visual-lock.git"
   },
   "dependencies": {
-    "jquery": "^3.0.0"
+    "jquery": "^3.0.0",
+    "jquery.actual": "^1.0.19"
   },
   "author": "Trevor Larson <trevor@trevorllarson.com> (http://trevorllarson.com)",
   "license": "ISC",
