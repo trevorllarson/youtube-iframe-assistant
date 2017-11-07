@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trevorllarson/object-visual-lock.git"
+    "url": "git+https://github.com/trevorllarson/youtube-iframe-assistant"
   },
   "dependencies": {
     "jquery": "^3.0.0",
