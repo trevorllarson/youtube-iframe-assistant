@@ -4,13 +4,15 @@ Make all Iframe YouTube videos fully responsive and scale with the screen
 
 ### If using webpack
 
-`var youtubeIframeAssistant = require('youtube-iframe-assistant');`
+```js
+var youtubeIframeAssistant = require('youtube-iframe-assistant');
+```
 
 ### Getting Started
 
 Simply call the `youtubeIframeAssistant` function and all iframes will be automatically set to scale responsively
 
-```
+```js
 $(function () {
  
     youtubeIframeAssistant();
@@ -20,7 +22,7 @@ $(function () {
 
 You can pass in different settings to tweak your criterea and functionality
 
-```
+```js
 $(function () {
  
     youtubeIframeAssistant({
@@ -32,7 +34,7 @@ $(function () {
 
 You can either surround your iframe with a figure tag, or allow the plugin to automatically wrap the iframe if it is not already the parent element.
 
-```
+```html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RQ2BHsL4C0I?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
  
 ---- OR ----
@@ -46,7 +48,7 @@ You can either surround your iframe with a figure tag, or allow the plugin to au
 
 This plugin can be used along side Bootstrap's Modals with no adjustments, and default styles can be toggled on/off. 
 
-```
+```html
 <div class="btn btn-primary video-toggle" data-toggle="modal" data-target="#target-modal">Open Video</div>
  
 <div id="target-modal" class="modal fade video-modal" tabindex="-1" role="dialog">
