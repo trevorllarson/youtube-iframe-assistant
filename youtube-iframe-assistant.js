@@ -1,5 +1,9 @@
 (function ($) {
 
+    $.fn.scopedYoutubeIframeAssistant = function(options) {
+
+    };
+
     youtubeIframeAssistant = function(options) {
 
         var settings = $.extend({
