@@ -16,7 +16,8 @@ jQuery, jQuery.actual
 ### If using webpack
 
 ```js
-var youtubeIframeAssistant = require('youtube-iframe-assistant');
+require('jquery.actual');
+require('youtube-iframe-assistant');
 ```
 
 ### If using separated scripts
