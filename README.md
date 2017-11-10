@@ -1,11 +1,30 @@
 # YouTube Iframe Assistant
 
-Make all Iframe YouTube videos fully responsive and scale with the screen
+Make all Iframe videos fully responsive and scale with the screen.
+
+This project began as a YouTube centered helper, but does support the following video embeds:
+
+- YouTube
+- Vimeo
+- Potentially others, no more tested
+
+If you have embed types that you would like to request be tested, [please submit an issue here](https://github.com/trevorllarson/youtube-iframe-assistant/issues "Issues")
+
+### Requirements
+jQuery, jQuery.actual
 
 ### If using webpack
 
 ```js
 var youtubeIframeAssistant = require('youtube-iframe-assistant');
+```
+
+### If using separated scripts
+
+```html
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.actual/1.0.19/jquery.actual.min.js"></script>
+<script src="/path/to/youtube-iframe-assistant.js"></script>
 ```
 
 ### Getting Started
@@ -68,7 +87,6 @@ This plugin can be used along side Bootstrap's Modals with no adjustments, and d
 
 | Setting | Type | Default | Description |
 | ------- | ---- | ------- | ----------- |
-| resizeWithWindow | boolean | true | Whether or not the iframe will be resized when the window changes size |
 | useBootstrapModal | boolean | false | Set this to true if using Bootstraps modals as video popups |
 | startVideoOnModalOpen | boolean | true | If using Bootstrap Modals, start the video when the modal opens, based on videoTogglesClass |
 | stopVideoOnModalClose | boolean | true | If using Bootstrap Modals, stop the video when the modal closes, based on the videoModalsClass |
