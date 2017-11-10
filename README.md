@@ -11,7 +11,8 @@ This project began as a YouTube centered helper, but does support the following 
 If you have embed types that you would like to request be tested, [please submit an issue here](https://github.com/trevorllarson/youtube-iframe-assistant/issues "Issues")
 
 ### Requirements
-jQuery, jQuery.actual
+- jQuery - v1.12.4 ^
+- jQuery.actual - latest
 
 ### If using webpack
 
