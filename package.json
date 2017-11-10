@@ -1,6 +1,6 @@
 {
   "name": "youtube-iframe-assistant",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Helpful Youtube Iframe Functions",
   "main": "youtube-iframe-assistant.js",
   "scripts": {
